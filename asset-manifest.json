@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.132debad.chunk.css",
+    "main.js": "/portfolio/static/js/main.78072450.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.78072450.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/portfolio/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.9e66d176.chunk.js": "/portfolio/static/js/2.9e66d176.chunk.js",
+    "static/js/2.9e66d176.chunk.js.map": "/portfolio/static/js/2.9e66d176.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.f343661653f27c0018b2e63811b95629.js": "/portfolio/precache-manifest.f343661653f27c0018b2e63811b95629.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/portfolio/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.132debad.chunk.css.map": "/portfolio/static/css/main.132debad.chunk.css.map",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.f251f4b1.jpg",
+    "static/media/call.jpeg": "/portfolio/static/media/call.54c78590.jpeg",
+    "static/media/codecademy.png": "/portfolio/static/media/codecademy.89a2fb88.png",
+    "static/media/cv.jpg": "/portfolio/static/media/cv.e8312797.jpg",
+    "static/media/gmail.png": "/portfolio/static/media/gmail.1876d8f8.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.a330e248.png",
+    "static/media/logo.jpg": "/portfolio/static/media/logo.7bc78205.jpg",
+    "static/media/mcgill.jpeg": "/portfolio/static/media/mcgill.08b891b7.jpeg",
+    "static/media/rafayFinal.png": "/portfolio/static/media/rafayFinal.e14d9690.png"
+  }
+}
