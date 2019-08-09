@@ -1,0 +1,86 @@
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.test{
+    margin-top: 100px;
+}
+
+.call{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.linkedin{
+   height: 80px;
+   width: 80px;
+}
+
+.fb{
+   
+    height: 80px;
+    width: 80px;
+}
+
+.gmail{
+    margin-left: 80px;
+    height: 80px;
+}
+
+.phone{
+    height: 80px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+.caption {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+button{
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    font-size: 1.5rem;
+    width: 80px;
+    text-align: center;
+}
+
+button:hover{
+    color:black;
+    background-color: white;
+}
+figure{
+    margin-top: 10%;
+}
+
+.bg4{
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    position: absolute;
+    margin-top: 5%; 
+    margin-left: 38%;
+    margin-right: 42%;
+    width: 20%;
+    text-align: center;
+    font-size: 2.7rem;
+}

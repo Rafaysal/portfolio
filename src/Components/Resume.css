@@ -1,0 +1,102 @@
+
+.bg2{
+    position: relative;
+    height: 1300px;
+    width: 100%;
+    z-index: -1;
+}
+
+.cv{
+    position: absolute;
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    top: 5%;
+    width: 60%;
+    align-content: center;
+    margin-left: 20%;
+    height: 84.8%;
+    border-radius: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+    text-align: center;
+    margin: 4% auto 4% auto;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+    align-self: center;
+    
+}
+
+.name span{
+    font-size: 3.3rem;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+.info div{
+    width: 32%;
+}
+
+.fone{
+    margin-left: 4%;
+    width: 28% !important;
+}
+.extra{
+    flex:2
+}
+
+.icon{
+    margin-left:6%;
+    height: 27px;
+}
+.icon2{
+    height: 27px;
+}
+icon3{
+    height: 27px;
+}
+
+.info div{
+    font-size: 1.1rem;
+}
+
+.iconInfo{
+    margin-left: 1%;
+    
+}
+
+.education{
+    margin-left: 3%;
+    
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+span.date{
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 3%;
+}
+
+.point{
+    line-height: 1.7rem;
+    margin: 8px 0 8px 0;
+}
+
+#goto{
+font-style: italic;
+color: black;
+}
+
+span.point{
+    line-height: 1.7rem;
+    margin: 8px 0 8px 0;
+}

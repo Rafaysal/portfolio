@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Layout, Drawer, Header, Navigation, Content} from 'react-mdl'
 import './App.css';
+import {Main} from '../src/Components/Main'
+import {Link} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+class App extends React.Component {
+  constructor(props){
+    super(props)
+  }
+
+  
+  render(){
+  return (<div className="demo-big-content">
+  <Layout>
+      <Header id = "header" title="Rafay Salahuddin" scroll>
+          <Navigation>
+              <Link  id = 'link' to="/">About Me </Link>
+              <Link  id = 'link' to="/resume">Resume</Link>
+              <Link  id = 'link' to="/projects">Projects</Link>
+              <Link  id = 'link' to="/contactInfo">Contact</Link>             
+          </Navigation>
+      </Header>
+      
+      <Content>
+          <Main/>
+      </Content>
+  </Layout>
+</div>
+
   );
 }
-
+}
 export default App;

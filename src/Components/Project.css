@@ -1,0 +1,18 @@
+.vid{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+iframe{
+    margin-top: 10%;
+    
+}
+
+.bg3{
+    position: absolute;
+    height: 1300px;
+    width: 100%;
+    z-index: -1;
+}
