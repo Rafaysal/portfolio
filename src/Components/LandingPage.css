@@ -7,14 +7,17 @@
     animation-iteration-count: 1;
 }
 
-@keyframes everything{
-    0% { 
+
+@keyframes everything {
+    0% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 1;
     }
 }
+
+
 .webDev{
     color: white;
 }
@@ -35,43 +38,10 @@
     animation-iteration-count: 1;
 }
 
-@keyframes bg {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.webDev{
-    animation: title 2s ease-in infinite;
-    animation-iteration-count: 1;
-}
-
-@keyframes title {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 
-.pic{
-    animation: rafay 2s ease-in infinite;
-    animation-iteration-count: 1;
-}
 
-@keyframes rafay {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+
 
 #titles:hover{
     color: orangered;
