@@ -22,8 +22,7 @@
     height: 650px;
     width: 100%;
     z-index: -1;
-    animation: bg 2s ease-in infinite;
-    animation-iteration-count: 1;
+  
 }
 
 
