@@ -10,7 +10,7 @@ import call from '/Users/rafaysalahuddin/Portfolio/rafay/src/Components/call.jpe
 export class ContactInfo extends React.Component{
     render(){
         return (
-        <div >
+        <div className="holder3">
             <img className = 'bg4' src ={bg}></img>
             <div className = "contact">Get in touch!</div>
          <div className = "logos">

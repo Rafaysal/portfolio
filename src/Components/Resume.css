@@ -100,3 +100,18 @@ span.point{
     line-height: 1.7rem;
     margin: 8px 0 8px 0;
 }
+
+.holder2{
+        animation: everything 1s ease-in infinite;
+        animation-iteration-count: 1;
+}
+    
+    
+ @keyframes everything {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }

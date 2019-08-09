@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 
 export class Resume extends React.Component{
     render(){
-        return (<div>
+        return (<div className = "holder2">
             <img className = 'bg2' src ={bg}></img>
             <div className = 'cv'>
 

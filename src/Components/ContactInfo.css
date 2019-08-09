@@ -84,3 +84,18 @@ figure{
     text-align: center;
     font-size: 2.7rem;
 }
+
+.holder3{
+    animation: everything 1s ease-in infinite;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes everything {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

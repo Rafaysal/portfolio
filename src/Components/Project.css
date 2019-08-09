@@ -16,3 +16,18 @@ iframe{
     width: 100%;
     z-index: -1;
 }
+
+.holder{
+    animation: everything 1s ease-in infinite;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes everything {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

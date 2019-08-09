@@ -4,7 +4,7 @@ import bg from '/Users/rafaysalahuddin/Portfolio/rafay/src/Components/bg.jpg'
 
 export class Projects extends React.Component{
     render(){
-        return (<div>
+        return (<div className = "holder">
               <img className = 'bg3' src ={bg}/>
             <div className = 'vid'>
             
