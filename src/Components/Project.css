@@ -2,13 +2,8 @@
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-
 }
 
-iframe{
-    margin-top: 10%;
-    
-}
 
 .bg3{
     position: absolute;
@@ -30,4 +25,12 @@ iframe{
     100% {
         opacity: 1;
     }
+}
+
+.header{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
 }

@@ -86,21 +86,22 @@ export class Resume extends React.Component{
                     <span>E</span>XPERIENCE & <span>P</span>ROJECTS
                     <div className = 'education'>
                         <br/>
+
+                    <b className='point-title'>Front-End Game Designer </b>
+                    <em><a target = '_blank' href='https://concordiabootcamps.ca/'> </a></em>
+                    <span className = 'date'>2018/2019</span>
+                    <div className ='point'>- Designed a <a id = 'goto' target='_blank' href = 'https://rafaysal.github.io/LionKingGame/'>Lion King riddle game </a> using React and CSS compatible with all devices
+                    </div>
+                    <div className ='point'>- Created a <a id = 'goto' target='_blank' href = 'http://shy-quince.surge.sh/'>Children's SpongeBob Game</a> using Javascript, HTML & CSS
+                    </div>
                     
-                    <b className='point-title'>Front-End E-Market, </b>
+                    <b className='point-title'>Front-End E-Commerce, </b>
                     <em><a target = '_blank' href='https://concordiabootcamps.ca/'>Concordia Bootcamps/DecodeMTL </a></em>
                     <span className = 'date'>2018</span>
                     <div className ='point'>- Designed an online marketplace called <Link id = 'goto' to = '/projects'> SpectacleHUB </Link> 
                     as a Front-end developer in a 3-member team to buy and sell glasses using Javascript, HTML & CSS
                     </div>
                     
-
-                    <b className='point-title'>Front-End Game Designer, </b>
-                    <em><a target = '_blank' href='https://concordiabootcamps.ca/'>Concordia Bootcamps/DecodeMTL </a></em>
-                    <span className = 'date'>2018</span>
-                    <div className ='point'>- Created a <Link id = 'goto' to = '/projects'>Childrens Spongebob game </Link> using Javascript, HTML & CSS
-                    </div>
-
                     <b className='point-title'>Online Portfolio Website Design</b> 
                     <span className = 'date'>2019</span>
                     <div className ='point'>- Created this website portfolio for myself using various web-development tools
@@ -116,7 +117,9 @@ export class Resume extends React.Component{
 
                   
                 </div>
+                <div className = "italic">*Items in italics are links</div>
             </div>
+            
             </div> 
         )
     }
