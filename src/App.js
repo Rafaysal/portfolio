@@ -16,7 +16,7 @@ class App extends React.Component {
   <Layout>
       <Header id = "header" title="Rafay Salahuddin" scroll>
           <Navigation>
-              <Link  id = 'link' to="/portfolio">About Me </Link>
+              <Link  id = 'link' to="/">About Me </Link>
               <Link  id = 'link' to="/resume">Resume</Link>
               <Link  id = 'link' to="/projects">Projects</Link>
               <Link  id = 'link' to="/contactInfo">Contact</Link>             

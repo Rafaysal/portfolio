@@ -13,14 +13,14 @@ export class Projects extends React.Component{
           <div className = 'vid'>
 
           <div>
-              <div className="header">Lion King Game</div>
+              <div className="header">Lion King Game <a target = "_blank" href='https://rafaysal.github.io/LionKingGame/'> - Play now</a></div>
           <iframe  width="525" height="394"
 src="https://www.youtube.com/embed/XU59RuOBi_w">
           </iframe>
           </div>
 
           <div>
-              <div className="header">SpongeBob Game</div>
+              <div className="header">SpongeBob Game <a target='_blank' href = 'http://shy-quince.surge.sh/'> - Play now</a></div>
            <iframe  width="525" height="394"
 src="https://www.youtube.com/embed/l89KFKK7agI">
           </iframe>
